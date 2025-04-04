@@ -1,0 +1,44 @@
+/* Hero Section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f0f9ff, #e0f7fa);
+  padding: 4rem 2rem;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-image img {
+  max-width: 450px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Impact Section */
+.impact-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Impact Icons */
+.icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}

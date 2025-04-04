@@ -1,0 +1,81 @@
+/* Navbar.css */
+:root {
+  --primary-green: #3e9f65;
+  --secondary-green: #208036;
+  --light-green: #40b25d;
+  --dark-green: #79c58e;
+  --text-white: #ffffff;
+  --gold-accent: #eaa62a;
+}
+
+.bg-primary {
+  background-color: var(--primary-green) !important;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--text-white) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-white) !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--gold-accent) !important;
+}
+
+.navbar-toggler {
+  border: none;
+  background: var(--light-green);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+  background-color: var(--text-white);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.btn-outline-light {
+  border-color: var(--light-green) !important;
+  color:  white;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--gold-accent) !important;
+  color: var(--primary-green) !important;
+  border-color: var(--gold-accent) !important;
+}
+
+/* Google Translate Styling */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+#google_translate_element {
+  padding: 5px;
+  background: var(--dark-green);
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}

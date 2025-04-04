@@ -1,0 +1,28 @@
+
+*{
+padding:0px;
+margin:0px;
+
+}
+iframe.skiptranslate {
+
+    display: none !important;
+  }
+  .VIpgJd-ZVi9od-aZ2wEe,
+.VIpgJd-ZVi9od-aZ2wEe-Jt5cK {
+  display: none !important;
+}
+
+  /* Hide the Google Translate tooltip (the top bar element) */
+#goog-gt-tt {
+    display: none !important;
+  }
+  
+  /* Hide the voting pane and its related elements */
+  #goog-gt-votingHiddenPane,
+  #goog-gt-votingForm,
+  #goog-gt-thumbUpButton,
+  #goog-gt-thumbDownButton {
+    display: none !important;
+  }
+  
