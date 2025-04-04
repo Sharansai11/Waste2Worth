@@ -18,6 +18,7 @@ const RecyclerDashboard = () => {
     "Recycling is a gift we give to our planet.",
     "Every piece recycled is a step towards a cleaner world.",
     "Transform waste into opportunity, one kg at a time.",
+    "Your recycling efforts create ripples of positive change.",
     "Sustainability starts with a single conscious choice."
   ];
 
