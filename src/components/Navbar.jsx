@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       await logoutUser();
-      // Clear the authentication context
+      // Cleared the authentication context
       setUser(null);
       setRole(null);
       setNgoName(null);
@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // Inject CSS to hide Google Translate's banner
+   
     const style = document.createElement("style");
     style.type = "text/css";
     style.innerHTML = `
@@ -37,7 +37,7 @@ const Navbar = () => {
     `;
     document.head.appendChild(style);
 
-    // Additionally, run a function periodically to hide the banner if it re-appears
+  
     const hideBanner = () => {
       const banner = document.querySelector(".goog-te-banner-frame.skiptranslate");
       if (banner) {
@@ -48,7 +48,7 @@ const Navbar = () => {
     hideBanner();
     const intervalId = setInterval(hideBanner, 500);
 
-    // Clean up when component unmounts
+
     return () => {
       clearInterval(intervalId);
       if (style.parentNode) {
