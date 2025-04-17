@@ -48,7 +48,7 @@ function App() {
         <div className="d-flex">
           <Sidebar />
           <div className="flex-grow-1 p-4">
-            {/* Wrap the entire route tree with LoadScript so that the Maps API is always loaded */}
+          
             <LoadScript
               googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}
               libraries={LIBRARIES}
