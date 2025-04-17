@@ -2,12 +2,12 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import "./Sidebar.css"; // Ensure you import the CSS file
+import "./Sidebar.css"; 
 
 const Sidebar = () => {
   const { role } = useAuth(); // Get role from AuthContext
 
-  if (!role) return null; // Hide sidebar if no role is assigned
+  if (!role) return null; 
 
   return (
     <div className="sidebar-container d-flex flex-column">
